@@ -10,3 +10,37 @@ CREATE TABLE products (
     stock_quantity INTEGER(200) NULL,
     PRIMARY KEY (item_id)
 );
+
+USE bamazon_db;
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("xbox one", "electronics", 599.99, 8);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("ps4", "electronics", 699.99, 8);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("gopro 7 black", "cameras", 399.99, 10);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("canon eos r", "cameras", 1999.99, 5);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("air jordans", "shoes", 299.98, 2);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("bose noise cancel headphones", "audio", 299.99, 12);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("avengers: endgame", "movies-music", 34.99, 25);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("laundry hamper", "storage", 36.99, 25);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("clorox disinfecting wipes", "health & household", 13.77, 16);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("iphone x", "cell phones", 679.99, 12);
+
+SELECT * FROM products;

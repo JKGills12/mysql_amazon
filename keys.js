@@ -1,5 +1,6 @@
 var mysql = require('mysql');
 require('dotenv').config(); //retrieve password for mysql 
+
 // require('dotenv').config()
 // console.log(process.env.MYSQL_PASSWORD);
 

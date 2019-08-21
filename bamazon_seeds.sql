@@ -16,28 +16,28 @@ CREATE TABLE products (
 USE bamazon_db;
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("xbox one", "electronics", 599.99, 8);
+VALUES ("xbox one", "electronics", 599.99, 50);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("ps4", "electronics", 699.99, 8);
+VALUES ("ps4", "electronics", 699.99, 50);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("gopro 7 black", "cameras", 399.99, 10);
+VALUES ("gopro 7 black", "cameras", 399.99, 30);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("canon eos r", "cameras", 1999.99, 5);
+VALUES ("canon eos r", "cameras", 1999.99, 35);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("air jordans", "shoes", 299.98, 2);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("bose noise cancel headphones", "audio", 299.99, 12);
+VALUES ("bose noise cancel headphones", "audio", 299.99, 74);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("avengers: endgame", "movies-music", 34.99, 25);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("laundry hamper", "storage", 36.99, 25);
+VALUES ("laundry hamper", "storage", 36.99, 15);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("clorox disinfecting wipes", "health & household", 13.77, 16);
